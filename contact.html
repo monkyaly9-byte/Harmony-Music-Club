@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Join | Harmony Music Club</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <img src="assets/logo.svg" alt="Harmony Music Club Logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="opportunities.html">Opportunities</a>
+    <a href="media.html">Media</a>
+    <a href="contact.html">Join</a>
+  </nav>
+</header>
+
+<section class="page">
+  <h1>Join the Music Club</h1>
+  <p>Open to all majors and skill levels at the college.</p>
+
+  <form action="https://formspree.io/f/abcdwxyz" method="POST">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="College Email" required>
+
+    <select name="interest">
+      <option>Instrumentalist</option>
+      <option>Vocalist</option>
+      <option>Producer</option>
+      <option>Songwriter</option>
+      <option>Just Exploring</option>
+    </select>
+
+    <textarea name="message" placeholder="Tell us about your interest in music"></textarea>
+
+    <button type="submit">Submit Application</button>
+  </form>
+</section>
+
+</body>
+</html>
